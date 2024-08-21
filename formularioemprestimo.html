@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Emprérestimo de Livros</title>
+    
+    <style>
+        body{
+            background-image: url("biblioteca-1024x683-1\ \(1\).jpg");
+            background-size: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        .titulo{
+            background-color: rgb(185, 35, 35);
+            text-align: center;
+            margin-bottom: 50px;    
+        }
+        body{
+            background-color: rgb(255, 229, 195);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        form{
+            background-color: bisque;
+            width: 400px;
+            border: 2px solid;
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+
+        }
+        label{
+            margin-bottom: 5px;
+            display: block;
+        }        
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"]{
+        background-color: rgb(166, 3, 3);            
+        color: white;
+        padding: 10px 20px ;
+
+        }   
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <section id="1" class="titulo">
+            <h1>Formulário de Empréstimo de Livros:</h1>
+    </header>
+        
+    <section id="2" class="center">
+
+<!--
+    <img src="biblioteca-1024x683-1 (1).jpg" alt="Imagem Biblioteca" width="300px">
+-->
+        
+    <form action="">
+        <label for="nome">Nome de Usuário:</label>
+        
+        <input type="text" id="nome">
+        
+        <label for="matricula">Matrícula:</label>      
+        <input type="text" id="matricula">
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf">
+        
+        <label for="isbn">ISBN do Livro(Código de informação do livro):</label>
+        <input type="text" id="isbn">
+        
+        <label for="titulo">Título do Livro:</label>
+        <input type="text" id="titulo">
+        
+        <label for="Autor">Autor do Livro:</label>
+        <input type="text" id="autor">
+        
+        
+        <label for="date">Data do Emprérestimo:</label>
+        <input type="date">
+        
+        <label for="date">Data do Devolução:</label>
+        <input type="date">
+        
+    
+        <label for="dias">Dias de Emprérestimo:</label>
+        <input type="text" id="dias">
+        
+    <br>
+    <br>
+        <input type="reset" name="Limpar">
+
+        <input type="submit" value="Emprestar">
+
+    </form>
+    </section>
+
+</body>
+</html>
